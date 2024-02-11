@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000', // Your Node.js server URL
+  baseURL: 'https://hacker-news2-o.onrender.com', // Your Node.js server URL
 });
 
 export default api;

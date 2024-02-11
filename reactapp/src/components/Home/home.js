@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await fetch(`http://localhost:8000/api/fetch`, {
+        const res = await fetch(`https://hacker-news2-o.onrender.com/api/fetch`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
